@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('images/wasted-vindey/Wasted-Vindey.ttf') format('truetype');
+}
+
+body{
+    background-color: #797D62;
+    font-family: 'MyCustomFont';
+    margin: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-color: #383a2d;
+    padding: 20px;
+    color: antiquewhite;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.searchBox{
+    border-radius: 20px;
+    margin-right: 40px;
+    width: 700px;
+    padding: 20px;
+    background-color: #c9cfa8;
+    font-family: 'MyCustomFont';
+    font-size: 30px;
+    text-align: center;
+    /* margin-bottom: -30px; */
+}
+
+.searchButton{
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.searchButton:hover{
+    background-color: #5c5f4b;
+}
+
+.main-body{
+    /* display: flex;
+    
+    justify-content: space-around; */
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px;
+}
+
+/* .img{
+    display: flex;
+    justify-content: center;
+    } */
+    
+    
+.weatherImg{
+    /* width: 500px; */
+    /* width: 100%; */
+    max-width: 500px;
+    min-width: 20px;
+    margin-left: 100px;
+    /* background-color: white; */
+}
+
+
+
+.humidityData{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.windSpeedData{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.humidity{
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-weight: bold;
+}
+
+.details{
+    margin-left: 40px ;
+}
+.smolDeets{
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    
+}
+
+.humidityImg{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.cond{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.condition{
+    font-size: 50px;
+    margin-top: -1px;
+    font-weight: bold;
+}
+.temperature{
+    font-size: 70px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.location{
+    font-size: 50px;
+}
+
+.play{
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+
+.error{
+    text-align: center;
+    font-size: 30px;
+}
